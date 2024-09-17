@@ -64,7 +64,9 @@ function LoginPage () {
               <label>By continuing with the platform, you accept our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</label>
             </div>
             <button className="login-button">Login</button>
-            <button className="create-account-button">Create an Account</button>
+            <Link to='/RegisterPage'>
+              <button className="create-account-button">Create an Account</button>
+            </Link>
           </form>
           <p className="copyright">Lyme 2024. All rights reserved</p>  
         </div>
